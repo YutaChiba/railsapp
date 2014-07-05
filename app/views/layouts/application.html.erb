@@ -7,8 +7,10 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+  <%= image_tag "logo.jpeg" %>
 <%= yield %>
+  
+  <%= link_to "HOME", projects_path %>
 
 </body>
 </html>
